@@ -6,7 +6,19 @@
 //     // let b = eval(a) 
 //     document.getElementById("output").value = b
 //     } 
+let ecran = document.getElementById("output") 
+ecran.value = 0;
+function afficher(val) 
+{ 
+    ecran.value += val
+    // ecran.value=parseFloat(ecran.value)
+    // document.getElementById("output").value+=val
+}
 
+let luka = document.getElementById('efacer')
+luka.addEventListener('click', function(){
+ecran.value=0;
+})
 
 
 

@@ -17,28 +17,29 @@
 
             <div class="buttons ">
                 <button class="rounded-circle bouton opera" id="efacer">c</button>
-                <button class="rounded-circle bouton opera" >(</button>
-                <button class="rounded-circle bouton opera">)</button>
-                <button class="rounded-circle bouton operateur" >/</button>
-                <button class="rounded-circle bouton" >7</button>
-                <button class="rounded-circle bouton" >8</button>
-                <button class="rounded-circle bouton" >9</button>
-                <button class="rounded-circle bouton operateur" >x</button>
-                <button class="rounded-circle bouton" >4</button>
-                <button class="rounded-circle bouton" >5</button>
-                <button class="rounded-circle bouton" >6</button>
-                <button class="rounded-circle bouton operateur" >-</button>
-                <button class="rounded-circle bouton" >1</button>
-                <button class="rounded-circle bouton" >2</button>
-                <button class="rounded-circle bouton" >3</button>
-                <button class="rounded-circle bouton operateur">+</button>
-                <button class="rounded-pill bouton zero" >0</button>
-                <button class="rounded-circle bouton" >.</button>
-                <button class="rounded-circle bouton operateur" >=</button>
+                <button class="rounded-circle bouton opera" onclick="afficher('(')">(</button>
+                <button class="rounded-circle bouton opera" onclick="afficher(')')">)</button>
+                <button class="rounded-circle bouton operateur" onclick="afficher('/')">/</button>
+                <button class="rounded-circle bouton" onclick="afficher('7')">7</button>
+                <button class="rounded-circle bouton" onclick="afficher('8')">8</button>
+                <button class="rounded-circle bouton" onclick="afficher('9')">9</button>
+                <button class="rounded-circle bouton operateur" onclick="afficher('x')">x</button>
+                <button class="rounded-circle bouton" onclick="afficher('4')">4</button>
+                <button class="rounded-circle bouton" onclick="afficher('5')">5</button>
+                <button class="rounded-circle bouton" onclick="afficher('6')">6</button>
+                <button class="rounded-circle bouton operateur" onclick="afficher('-')">-</button>
+                <button class="rounded-circle bouton" onclick="afficher('1')">1</button>
+                <button class="rounded-circle bouton" onclick="afficher('2')">2</button>
+                <button class="rounded-circle bouton" onclick="afficher('3')">3</button>
+                <button class="rounded-circle bouton operateur" onclick="afficher('+')">+</button>
+                <button class="rounded-pill bouton zero" onclick="afficher('0')">0</button>
+                <button class="rounded-circle bouton" onclick="afficher('.')">.</button>
+                <button class="rounded-circle bouton operateur" id="equal">=</button>
             </div>
             
         </div>   
     </main>
     <script src="main.js"></script>
 </body>
+<!-- id="nigatif" -->
 </html>
