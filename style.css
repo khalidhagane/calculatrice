@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.calculatrice{
+    box-shadow: 10px 5px 5px rgb(133, 130, 130);
+}
+input{
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 32, 32);
+    border:rgb(39, 32, 32);
+}
+.buttons {
+    /* width: 3.5rem; */
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    grid-template-rows: repeat(5,50px);
+    gap: 7px;
+    padding:16px;
+}
+.zero{
+    grid-column: 1/3;
+    grid-row: 5;
+} 
+.bouton{
+    color: rgb(255, 255, 255);
+    background-color: rgb(99, 93, 93);
+    border:1px rgb(99, 93, 93);
+}
+.operateur{
+    background-color:#FF9710;
+    border: 1px #FF9710;
+}
+.opera{
+    color: #000;
+    background-color: rgba(224, 220, 220, 0.952);
+    border:1px rgba(224, 220, 220, 0.952);
+}
+
