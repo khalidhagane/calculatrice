@@ -14,11 +14,11 @@
 <body>
     <main class=" d-flex justify-content-center align-items-center " style="height:100vh;">
         <div class=" calculatrice bg-black card  " style="width: 16rem;">
-            <input type="text" id="output" class="ecran rounded "style="width:100%; height:100px;">
+            <input type="text" id="output" class="ecran rounded " value="0" style="width:100%; height:100px;"></input>
 
             <div class="buttons ">
                 <button class="rounded-circle bouton opera" id="suprimer">c</button>
-                <button class="rounded-circle bouton opera" onclick="affichage()"><i class="fa-solid fa-delete-left"></i></button>
+                <button class="rounded-circle bouton opera" id="sup_number"><i class="fa-solid fa-delete-left"></i></button>
                 <button class="rounded-circle bouton opera" onclick="affichage('%')">%</button>
                 <button content="/" class="rounded-circle bouton operateur" >/</button>
                 <button class="rounded-circle bouton" onclick="affichage('7')">7</button>
